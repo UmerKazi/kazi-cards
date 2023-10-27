@@ -65,7 +65,7 @@ export default function Header() {
   });
 
   return (
-    <AppBar position="sticky" elevation={0} sx={{ borderBottom: '1px solid', borderColor: trigger ? 'black' : 'transparent', transition: 'backgroundColor 2s ease-in-out', backgroundColor: trigger ? "#1e1e20" : "transparent"}}>
+    <AppBar position="absolute" elevation={0} sx={{ borderBottom: '1px solid', borderColor: "transparent", transition: 'backgroundColor 2s ease-in-out', backgroundColor: "transparent"}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* <PaymentsIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, fontSize: '30px', color: 'csWhite' }} /> */}

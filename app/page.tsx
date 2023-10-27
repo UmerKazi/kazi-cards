@@ -8,12 +8,12 @@ import bg from '../public/bg.jpg';
 import { makeStyles } from '@mui/styles'
 
 const testimonial = [
-  {name: "Ibrahim Ajmal", occupation: "Startup Founder", text: "Kazi Cards has been a game-changer for my networking efforts. I've been able to share my professional profile seamlessly, leaving a lasting impression every time.", picture: "https://media.licdn.com/dms/image/C4E03AQGUQu3ao7nt_g/profile-displayphoto-shrink_800_800/0/1636632619809?e=2147483647&v=beta&t=pLLHhIW3M0uf_F3iDu2atiCblTXuf22U0RzYvykYIXI", rating: 5},
-  {name: "George Holly-Greco", occupation: "Software Engineer", text: "In the tech world, staying updated with the latest tools is a must. Kazi Cards is the future of professional networking. It's efficient, eco-friendly, and incredibly user-friendly. Highly recommended!", picture: "https://media.licdn.com/dms/image/C4E03AQHQ3NwycrVdqA/profile-displayphoto-shrink_800_800/0/1633739011328?e=2147483647&v=beta&t=N4umRAlXx1uTBXgC0OgBRnmMl_5eDZ6htdkcKfANIbg", rating: 5},
-  {name: "Aarush Khurana", occupation: "Business Consultant", text: "I meet numerous clients and partners daily. Kazi Cards has not only streamlined my introductions but also added a touch of modern professionalism to my interactions.", picture: "https://media.licdn.com/dms/image/D5603AQH7xMKOlA-kdQ/profile-displayphoto-shrink_800_800/0/1694041956769?e=2147483647&v=beta&t=xd4tb4IL53LP1-IaAP_1JuTGO8pi9yW59uSPPFrqmBc", rating: 5},
-  {name: "Yash Rohatgi", occupation: "Software Developer", text: "Being a developer, I appreciate tools that simplify life. Kazi Cards does just that for networking. No more fumbling with paper cards or manually inputting contact details. A quick scan, and I'm connected. Brilliant!", picture: "https://media.licdn.com/dms/image/C4D03AQGfc0-nX835ow/profile-displayphoto-shrink_800_800/0/1613505558459?e=2147483647&v=beta&t=X5IhFdQdOV5OKgRixCmiCS3GcnmypXcwkxXDBceOAsc", rating: 5},
-  {name: "Levi Shem-Tov", occupation: "Backend Engineer", text: "Kazi Cards is a testament to how technology can enhance even the simplest of tasks. Sharing my professional details has never been easier or more stylish.", picture: "https://media.licdn.com/dms/image/C5603AQFXEWEYQiWrnA/profile-displayphoto-shrink_800_800/0/1617247230865?e=2147483647&v=beta&t=YPMcxrjHI2dsJO0e34a2yUPQIN7uap9tN8ktobTJN_s", rating: 5},
-  {name: "Eric Wang", occupation: "Tech Sales", text: "Kazi Cards is a game-changer in tech sales. Quick, sleek, and efficient, it's the modern way to make an impact with clients. A must-have for every sales toolkit.", picture: "https://media.licdn.com/dms/image/C4E03AQENnRdy5vHEPg/profile-displayphoto-shrink_800_800/0/1606436549346?e=2147483647&v=beta&t=iNG0iQ1nc-XezCl1vjFKq51P8iZWAXCpLxFu5Vxii-o", rating: 5}
+  {name: "Ibrahim Ajmal", occupation: "Startup Founder", text: "Cards has been a game-changer for my networking efforts. I've been able to share my professional profile seamlessly, leaving a lasting impression every time.", picture: "https://media.licdn.com/dms/image/C4E03AQGUQu3ao7nt_g/profile-displayphoto-shrink_800_800/0/1636632619809?e=2147483647&v=beta&t=pLLHhIW3M0uf_F3iDu2atiCblTXuf22U0RzYvykYIXI", rating: 5},
+  {name: "George Holly-Greco", occupation: "Software Engineer", text: "In the tech world, staying updated with the latest tools is a must. Cards is the future of professional networking. It's efficient, eco-friendly, and incredibly user-friendly. Highly recommended!", picture: "https://media.licdn.com/dms/image/C4E03AQHQ3NwycrVdqA/profile-displayphoto-shrink_800_800/0/1633739011328?e=2147483647&v=beta&t=N4umRAlXx1uTBXgC0OgBRnmMl_5eDZ6htdkcKfANIbg", rating: 5},
+  {name: "Aarush Khurana", occupation: "Business Consultant", text: "I meet numerous clients and partners daily. Cards has not only streamlined my introductions but also added a touch of modern professionalism to my interactions.", picture: "https://media.licdn.com/dms/image/D5603AQH7xMKOlA-kdQ/profile-displayphoto-shrink_800_800/0/1694041956769?e=2147483647&v=beta&t=xd4tb4IL53LP1-IaAP_1JuTGO8pi9yW59uSPPFrqmBc", rating: 5},
+  {name: "Yash Rohatgi", occupation: "Software Developer", text: "Being a developer, I appreciate tools that simplify life. Cards does just that for networking. No more fumbling with paper cards or manually inputting contact details. A quick scan, and I'm connected. Brilliant!", picture: "https://media.licdn.com/dms/image/C4D03AQGfc0-nX835ow/profile-displayphoto-shrink_800_800/0/1613505558459?e=2147483647&v=beta&t=X5IhFdQdOV5OKgRixCmiCS3GcnmypXcwkxXDBceOAsc", rating: 5},
+  {name: "Levi Shem-Tov", occupation: "Backend Engineer", text: "Cards is a testament to how technology can enhance even the simplest of tasks. Sharing my professional details has never been easier or more stylish.", picture: "https://media.licdn.com/dms/image/C5603AQFXEWEYQiWrnA/profile-displayphoto-shrink_800_800/0/1617247230865?e=2147483647&v=beta&t=YPMcxrjHI2dsJO0e34a2yUPQIN7uap9tN8ktobTJN_s", rating: 5},
+  {name: "Eric Wang", occupation: "Tech Sales", text: "Cards is a game-changer in tech sales. Quick, sleek, and efficient, it's the modern way to make an impact with clients. A must-have for every sales toolkit.", picture: "https://media.licdn.com/dms/image/C4E03AQENnRdy5vHEPg/profile-displayphoto-shrink_800_800/0/1606436549346?e=2147483647&v=beta&t=iNG0iQ1nc-XezCl1vjFKq51P8iZWAXCpLxFu5Vxii-o", rating: 5}
 ]
 
 function handleScrollToAbout() {
@@ -130,6 +130,36 @@ const useStyles = makeStyles({
       zIndex: 0,
     },
   },
+  animatedGradient5: {
+    borderRadius: '15px',
+    position: 'relative',
+    height: '100%',
+    width: '100%',
+    zIndex: 0,  // Create a new stacking context
+    '&::before': {
+      content: '""',
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      backgroundImage: 'radial-gradient(ellipse at center, #30cfd0, #330867 100%)',
+      animation: '$fadeInOut 5s infinite alternate',
+      borderRadius: '15px',
+      zIndex: -1,  // Push the gradient to the back, but still above the parent due to the new stacking context
+    },
+    '&::after': {
+      content: '""',
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      borderRadius: '15px',
+      backgroundImage: 'radial-gradient(ellipse at center, #330867, #30cfd0 100%)',
+      zIndex: -1,  // Same as above
+    },
+  },
   '@keyframes fadeInOut': {
     '0%': {
       opacity: 1,
@@ -143,9 +173,9 @@ const useStyles = makeStyles({
 export default function Home() {
   const classes = useStyles();
   return (
-    <main style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundImage: `url(${bg})`, backgroundSize: 'cover', width: '100%', height: '100%', backgroundColor: 'black', overflowY: 'scroll' }}>
+    <main style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundImage: `url(${bg})`, backgroundSize: 'cover', width: '100%', height: '100%', backgroundColor: 'black', overflow: 'none' }}>
     <Header/>
-    <Box maxWidth="lg" sx={{ marginTop: {xs: '50px', sm: '0px'}, display: 'flex', flexDirection: {xs: 'column-reverse', md: 'row'}, alignItems: 'center', justifyContent: {xs: 'center', md: 'space-between'}, height: 'calc(100vh - 150px)', overflowY: 'none' }}>
+    <Box maxWidth="lg" sx={{ marginTop: {xs: '100px', sm: '75px'}, display: 'flex', flexDirection: {xs: 'column-reverse', md: 'row'}, alignItems: 'center', justifyContent: {xs: 'center', md: 'space-between'}, height: 'calc(100vh - 150px)', overflow: 'none' }}>
       <Box sx={{ marginTop: {xs: '20px', md: '0px'}, width: {xs: '90%', md: '50%'}, aspectRatio: '1', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center' }}>
         <Typography sx={{ fontSize: {xs: '60px', md: '84px'}, fontFamily: 'Recoleta', lineHeight: '1', marginBottom: '10px', textAlign: {xs: 'center', md: 'left'} }}>
           Contact Sharing Made <span style={{ color: accent }}>Easy</span>
@@ -170,10 +200,10 @@ export default function Home() {
       </Box>
       </Box>
     </Box>
-    <IconButton onClick={handleScrollToAbout} sx={{ display: {xs: "none", md: 'block'}}}>
+    <IconButton onClick={handleScrollToAbout} sx={{  display: {xs: "none", md: 'block'}}}>
       <KeyboardArrowDownIcon sx={{ color: 'white', fontSize: '36px' }} />
     </IconButton>
-    <Box id="about" maxWidth="lg" sx={{ width: {xs: '95%', md: '100%'}, height: '160vh', marginTop: '50px', overflowY: 'none' }}>
+    <Box id="about" maxWidth="lg" sx={{ marginBottom: {xs: '100px', md: '0px'}, width: {xs: '95%', md: '100%'}, height: '120vh', marginTop: '50px', overflow: 'none' }}>
       <Box sx={{ padding: {xs: '20px', md: '0px'}, display: 'flex', flexDirection: "column", alignItems: {xs: 'center', md: 'center'}, justifyContent: 'center', marginTop: '50px', backgroundColor: '#101010', borderRadius: '25px' }}>
         
         <Typography sx={{ fontFamily: 'Recoleta', fontSize: '60px', lineHeight: '1.2', textAlign: {xs: 'center', md: 'left'}, marginTop: '60px', marginBottom: '30px' }}>
@@ -181,10 +211,10 @@ export default function Home() {
         </Typography>
 
         <Box maxWidth="sm" sx={{ width: '100%', marginBottom: '20px' }}>
-          <Box className={classes.animatedGradient2} sx={{borderRadius: '15px', width: '100%', height: '100px', marginTop: '20px', marginBottom: '20px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Box className={classes.animatedGradient2} sx={{borderRadius: '5px', width: '100%', height: '100px', marginTop: '20px', marginBottom: '20px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <Box sx={{ zIndex: 3 }}>
                   <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                      <Box sx={{ marginRight: '10px', borderRadius: '100px', border: '2px solid #636cff', width: '25px', height: '25px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '14px' }}>1</Box>
+                      {/* <Box sx={{ marginRight: '10px', borderRadius: '100px', border: '2px solid #636cff', width: '25px', height: '25px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '14px' }}>1</Box> */}
                       <Typography sx={{ fontSize: '30px', fontFamily: 'Recoleta' }}>
                           Fill & Customize
                       </Typography>
@@ -197,10 +227,10 @@ export default function Home() {
         </Box>
 
         <Box maxWidth="sm" sx={{ width: '100%', marginBottom: '20px' }}>
-          <Box className={classes.animatedGradient3} sx={{borderRadius: '15px', width: '100%', height: '100px', marginTop: '20px', marginBottom: '20px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Box className={classes.animatedGradient3} sx={{borderRadius: '5px', width: '100%', height: '100px', marginTop: '20px', marginBottom: '20px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <Box sx={{ zIndex: 3 }}>
                   <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                      <Box sx={{ marginRight: '10px', borderRadius: '100px', border: '2px solid #636cff', width: '25px', height: '25px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '14px' }}>2</Box>
+                      {/* <Box sx={{ marginRight: '10px', borderRadius: '100px', border: '2px solid #636cff', width: '25px', height: '25px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '14px' }}>2</Box> */}
                       <Typography sx={{ fontSize: '30px', fontFamily: 'Recoleta' }}>
                           Get Your QR Code
                       </Typography>
@@ -213,10 +243,10 @@ export default function Home() {
         </Box>
 
         <Box maxWidth="sm" sx={{ width: '100%', marginBottom: '80px' }}>
-          <Box className={classes.animatedGradient4} sx={{borderRadius: '15px', width: '100%', height: '100px', marginTop: '20px', marginBottom: '20px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Box className={classes.animatedGradient4} sx={{borderRadius: '5px', width: '100%', height: '100px', marginTop: '20px', marginBottom: '20px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <Box sx={{ zIndex: 3 }}>
                   <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                      <Box sx={{ marginRight: '10px', borderRadius: '100px', border: '2px solid #636cff', width: '25px', height: '25px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '14px' }}>3</Box>
+                      {/* <Box sx={{ marginRight: '10px', borderRadius: '100px', border: '2px solid #636cff', width: '25px', height: '25px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '14px' }}>3</Box> */}
                       <Typography sx={{ fontSize: '30px', fontFamily: 'Recoleta' }}>
                       Go Beyond With NFC
                       </Typography>
@@ -230,18 +260,18 @@ export default function Home() {
 
       </Box>
     </Box>
-    <Box id="testimonials" maxWidth="lg" sx={{ width: '100%', height: '100vh', marginTop: '50px', overflowY: 'none' }}>
+    <Box id="testimonials" maxWidth="lg" sx={{ marginBottom: '1000px', width: '100%', height: '120vh', marginTop: '50px', overflow: 'none' }}>
       <Box sx={{ display: 'flex', flexDirection: {xs: 'column', md: 'row'}, alignItems: {xs: 'center', md: 'flex-start'}, justifyContent: 'space-between', marginTop: '50px' }}>
         <Typography sx={{ fontFamily: 'Recoleta', fontSize: '48px', lineHeight: '1.2', textAlign: {xs: 'center', md: 'left'} }}>
           Loved By Many <br/><span style={{ color: accent }}>Worldwide.</span>
         </Typography>
         <Typography sx={{ marginTop: {xs: '10px', md: "0px"}, fontFamily: 'Recoleta', fontSize: '36px', lineHeight: '1', color: 'grey', textAlign: {xs: 'center', md: 'left'} }}>
-          See what our <br/>users are saying about <br/>kazi|cards.
+          See what our <br/>users are saying about <br/>Cards.
         </Typography>
       </Box>
       <Box id="tests" sx={{ marginTop: '50px', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center' }}>
         {testimonial.map((item, idx) => (
-          <Box key={item.name} sx={{ padding: '20px', height: '260px', width: '380px', backgroundColor: 'black', border: '2px solid grey', margin: '10px', borderRadius: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'space-between' }}>
+          <Box key={item.name} sx={{ padding: '20px', height: '260px', width: '378px', backgroundColor: 'black', border: '2px solid grey', margin: '10px', borderRadius: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'space-between' }}>
             <Typography sx={{ fontSize: '16px', color: 'white', fontFamily: 'inter' }}>
               {item.text}
             </Typography>
@@ -260,6 +290,16 @@ export default function Home() {
         ))}
       </Box>
     </Box>
+  <Box id="get-started" maxWidth="lg" sx={{ padding: {xs: '10px', md: '20px'}, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', width: '100%', height: '100vh',  marginTop: '50px' }}>
+    <Box className={classes.animatedGradient5} sx={{ padding: {xs: '20px', md: '0px'}, alignItems: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
+      <Typography sx={{ fontFamily: 'Recoleta', fontSize: {xs: '40px', md: '60px'}, marginBottom: '30px', textAlign: 'center' }}>
+        What Are You Waiting For?
+      </Typography>
+      <Button variant='contained' sx={{ borderRadius: '100px', textTransform: 'none', fontSize: '24px', width: '300px', backgroundColor: accent, "&:hover": { backgroundColor: '#757bf7' } }}>
+        Get Started Today
+      </Button>
+    </Box>
+  </Box>
     </main>
   )
 }
