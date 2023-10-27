@@ -170,7 +170,7 @@ export default function Home() {
       </Box>
       </Box>
     </Box>
-    <IconButton onClick={handleScrollToAbout} sx={{}}>
+    <IconButton onClick={handleScrollToAbout} sx={{ display: {xs: "none", md: 'block'}}}>
       <KeyboardArrowDownIcon sx={{ color: 'white', fontSize: '36px' }} />
     </IconButton>
     <Box id="about" maxWidth="lg" sx={{ width: {xs: '95%', md: '100%'}, height: '160vh', marginTop: '50px' }}>
