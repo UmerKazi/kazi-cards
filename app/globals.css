@@ -3,6 +3,11 @@
   src: url("/carphe.ttf");
 }
 
+@font-face {
+  font-family: "Recoleta";
+  src: url("/Recoleta-SemiBold.ttf");
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
