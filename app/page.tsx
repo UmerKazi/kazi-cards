@@ -150,14 +150,14 @@ export default function Home() {
         <Typography sx={{ fontSize: {xs: '60px', md: '84px'}, fontFamily: 'Recoleta', lineHeight: '1', marginBottom: '10px', textAlign: {xs: 'center', md: 'left'} }}>
           Contact Sharing Made <span style={{ color: accent }}>Easy</span>
         </Typography>
-        <Typography sx={{ fontSize: {xs: '18px', md: '30px'}, fontFamily: 'Inter', color: '#99999f', textAlign: {xs: 'center', md: 'left'} }}>
+        <Typography sx={{ fontSize: {xs: '18px', md: '30px'},  color: '#99999f', textAlign: {xs: 'center', md: 'left'} }}>
           Scan, Connect, Collaborate. Elevate your digital presence with a modern touch
         </Typography>
         <Box sx={{ display: 'flex', flexDirection: 'row', marginTop: {xs: '20px', md: '50px'}, width: '100%', justifyContent: {xs: 'center', md: 'left'} }}>
-          <Button variant="contained" sx={{ textTransform: 'none', borderRadius: '100px', backgroundColor: accent, width: '120px', fontFamily: 'inter', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', "&:hover": { backgroundColor: '#757bf7' }  }}>
+          <Button variant="contained" sx={{ textTransform: 'none', borderRadius: '100px', backgroundColor: accent, width: '120px',  display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', "&:hover": { backgroundColor: '#757bf7' }  }}>
             Get Started
           </Button>
-          <Button variant="contained" sx={{ marginLeft: '15px', textTransform: 'none', borderRadius: '100px', backgroundColor: "#313136", border: "2px solid #414146", width: '120px', fontFamily: 'inter', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', "&:hover": { backgroundColor: '#212126' }  }}>
+          <Button variant="contained" sx={{ marginLeft: '15px', textTransform: 'none', borderRadius: '100px', backgroundColor: "#313136", border: "2px solid #414146", width: '120px',  display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', "&:hover": { backgroundColor: '#212126' }  }}>
             Learn More
           </Button>
         </Box>
