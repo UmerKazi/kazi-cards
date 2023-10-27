@@ -260,7 +260,7 @@ export default function Home() {
 
       </Box>
     </Box>
-    <Box id="testimonials" maxWidth="lg" sx={{ marginBottom: '1000px', width: '100%', height: '120vh', marginTop: '50px', overflow: 'none' }}>
+    <Box id="testimonials" maxWidth="lg" sx={{ marginBottom: {xs: '1000px', md: '0px'} , width: '100%', height: '120vh', marginTop: '50px', overflow: 'none' }}>
       <Box sx={{ display: 'flex', flexDirection: {xs: 'column', md: 'row'}, alignItems: {xs: 'center', md: 'flex-start'}, justifyContent: 'space-between', marginTop: '50px' }}>
         <Typography sx={{ fontFamily: 'Recoleta', fontSize: '48px', lineHeight: '1.2', textAlign: {xs: 'center', md: 'left'} }}>
           Loved By Many <br/><span style={{ color: accent }}>Worldwide.</span>
