@@ -143,9 +143,9 @@ const useStyles = makeStyles({
 export default function Home() {
   const classes = useStyles();
   return (
-    <main style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundImage: `url(${bg})`, backgroundSize: 'cover', width: '100%', height: '100%', backgroundColor: 'black' }}>
+    <main style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundImage: `url(${bg})`, backgroundSize: 'cover', width: '100%', height: '100%', backgroundColor: 'black', overflowY: 'scroll' }}>
     <Header/>
-    <Box maxWidth="lg" sx={{ marginTop: {xs: '50px', sm: '0px'}, display: 'flex', flexDirection: {xs: 'column-reverse', md: 'row'}, alignItems: 'center', justifyContent: {xs: 'center', md: 'space-between'}, height: 'calc(100vh - 150px)' }}>
+    <Box maxWidth="lg" sx={{ marginTop: {xs: '50px', sm: '0px'}, display: 'flex', flexDirection: {xs: 'column-reverse', md: 'row'}, alignItems: 'center', justifyContent: {xs: 'center', md: 'space-between'}, height: 'calc(100vh - 150px)', overflowY: 'none' }}>
       <Box sx={{ marginTop: {xs: '20px', md: '0px'}, width: {xs: '90%', md: '50%'}, aspectRatio: '1', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center' }}>
         <Typography sx={{ fontSize: {xs: '60px', md: '84px'}, fontFamily: 'Recoleta', lineHeight: '1', marginBottom: '10px', textAlign: {xs: 'center', md: 'left'} }}>
           Contact Sharing Made <span style={{ color: accent }}>Easy</span>
@@ -173,7 +173,7 @@ export default function Home() {
     <IconButton onClick={handleScrollToAbout} sx={{ display: {xs: "none", md: 'block'}}}>
       <KeyboardArrowDownIcon sx={{ color: 'white', fontSize: '36px' }} />
     </IconButton>
-    <Box id="about" maxWidth="lg" sx={{ width: {xs: '95%', md: '100%'}, height: '160vh', marginTop: '50px' }}>
+    <Box id="about" maxWidth="lg" sx={{ width: {xs: '95%', md: '100%'}, height: '160vh', marginTop: '50px', overflowY: 'none' }}>
       <Box sx={{ padding: {xs: '20px', md: '0px'}, display: 'flex', flexDirection: "column", alignItems: {xs: 'center', md: 'center'}, justifyContent: 'center', marginTop: '50px', backgroundColor: '#101010', borderRadius: '25px' }}>
         
         <Typography sx={{ fontFamily: 'Recoleta', fontSize: '60px', lineHeight: '1.2', textAlign: {xs: 'center', md: 'left'}, marginTop: '60px', marginBottom: '30px' }}>
@@ -230,7 +230,7 @@ export default function Home() {
 
       </Box>
     </Box>
-    <Box id="testimonials" maxWidth="lg" sx={{ width: '100%', height: '100vh', marginTop: '50px' }}>
+    <Box id="testimonials" maxWidth="lg" sx={{ width: '100%', height: '100vh', marginTop: '50px', overflowY: 'none' }}>
       <Box sx={{ display: 'flex', flexDirection: {xs: 'column', md: 'row'}, alignItems: {xs: 'center', md: 'flex-start'}, justifyContent: 'space-between', marginTop: '50px' }}>
         <Typography sx={{ fontFamily: 'Recoleta', fontSize: '48px', lineHeight: '1.2', textAlign: {xs: 'center', md: 'left'} }}>
           Loved By Many <br/><span style={{ color: accent }}>Worldwide.</span>
