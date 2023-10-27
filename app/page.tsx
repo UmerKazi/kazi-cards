@@ -145,7 +145,7 @@ export default function Home() {
   return (
     <main style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundImage: `url(${bg})`, backgroundSize: 'cover', width: '100%', height: '100%', backgroundColor: 'black' }}>
     <Header/>
-    <Box maxWidth="lg" sx={{ marginTop: {xs: '10px', sm: '0px'}, display: 'flex', flexDirection: {xs: 'column-reverse', md: 'row'}, alignItems: 'center', justifyContent: {xs: 'center', md: 'space-between'}, height: 'calc(100vh - 150px)' }}>
+    <Box maxWidth="lg" sx={{ marginTop: {xs: '50px', sm: '0px'}, display: 'flex', flexDirection: {xs: 'column-reverse', md: 'row'}, alignItems: 'center', justifyContent: {xs: 'center', md: 'space-between'}, height: 'calc(100vh - 150px)' }}>
       <Box sx={{ marginTop: {xs: '20px', md: '0px'}, width: {xs: '90%', md: '50%'}, aspectRatio: '1', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center' }}>
         <Typography sx={{ fontSize: {xs: '60px', md: '84px'}, fontFamily: 'Recoleta', lineHeight: '1', marginBottom: '10px', textAlign: {xs: 'center', md: 'left'} }}>
           Contact Sharing Made <span style={{ color: accent }}>Easy</span>
